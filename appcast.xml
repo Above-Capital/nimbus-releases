@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- appcast.xml — Sparkle update feed for Nimbus (macOS). Served via GitHub Pages from this
+     repo's main root (https://above-capital.github.io/nimbus-releases/appcast.xml). CI appends
+     one <item> per release, newest first, right after <language>en</language>
+     (Above-Capital/nimbus repo → .github/workflows/release.yml → macos/Scripts/update_appcast.sh).
+     Enclosures are the versioned notarized DMGs on this repo's GitHub Releases; each
+     sparkle:edSignature is bound to those exact bytes, so a published DMG is never replaced. -->
+<rss version="2.0"
+     xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Nimbus</title>
+    <link>https://above-capital.github.io/nimbus-releases/appcast.xml</link>
+    <description>Sparkle update feed for Nimbus (macOS).</description>
+    <language>en</language>
+    <item>
+      <title>0.0.3</title>
+      <pubDate>Sun, 19 Jul 2026 05:24:37 +0000</pubDate>
+      <sparkle:version>0.0.3</sparkle:version>
+      <sparkle:shortVersionString>0.0.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>Nimbus 0.0.3. <a href="https://github.com/Above-Capital/nimbus-releases/releases/tag/v0.0.3">Release notes</a></p>]]></description>
+      <enclosure url="https://github.com/Above-Capital/nimbus-releases/releases/download/v0.0.3/Nimbus-0.0.3.dmg" type="application/octet-stream" sparkle:edSignature="ksZINjd/AC+q26uJE15n+r14lY/6duXKNzfNbAqlStjwp2JRQXLIuJaCFqDG4pSUprOQXaEc7jnOG5uBZKtjAQ==" length="6664813" />
+    </item>
+  </channel>
+</rss>
