@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- appcast.xml — Sparkle update feed for Nimbus (macOS). Served via GitHub Pages from this
      repo's main root (https://above-capital.github.io/nimbus-releases/appcast.xml). CI appends
-     one <item> per release, newest first, right after <language>en</language>
+     one <item> per release, newest first, immediately after the channel's language element
      (Above-Capital/nimbus repo → .github/workflows/release.yml → macos/Scripts/update_appcast.sh).
      Enclosures are the versioned notarized DMGs on this repo's GitHub Releases; each
      sparkle:edSignature is bound to those exact bytes, so a published DMG is never replaced. -->
