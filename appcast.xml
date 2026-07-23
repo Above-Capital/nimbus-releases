@@ -14,6 +14,15 @@
     <description>Sparkle update feed for Nimbus (macOS).</description>
     <language>en</language>
     <item>
+      <title>0.0.10</title>
+      <pubDate>Thu, 23 Jul 2026 01:51:41 +0000</pubDate>
+      <sparkle:version>0.0.10</sparkle:version>
+      <sparkle:shortVersionString>0.0.10</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<p>Nimbus 0.0.10. <a href="https://github.com/Above-Capital/nimbus-releases/releases/tag/v0.0.10">Release notes</a></p>]]></description>
+      <enclosure url="https://github.com/Above-Capital/nimbus-releases/releases/download/v0.0.10/Nimbus-0.0.10.dmg" type="application/octet-stream" sparkle:edSignature="I9jxjk61lwF/AxCo28dfLfcpq40JgBZXe6WRus4IbdCsieGLa0i0gFg8QYxt7BXPvpFJf7QA3C46kZH3ovr4AA==" length="7762925" />
+    </item>
+    <item>
       <title>0.0.9</title>
       <pubDate>Wed, 22 Jul 2026 22:32:15 +0000</pubDate>
       <sparkle:version>0.0.9</sparkle:version>
